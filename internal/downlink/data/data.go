@@ -405,8 +405,33 @@ func setTXInfoForRX2(ctx *dataContext) error {
 		Immediately: ctx.Immediately,
 	}
 
+	// get frequency
+	if config.C.NetworkServer.NetworkSettings.RX2Frequency != -1 {
+		if ctx.DeviceSession.RX2Frequency != 0 {
+			txInfo.Frequency = uint32(ctx.DeviceSession.RX2Frequency)
+		} else {
+			txInfo.Frequency = uint32(config.C.NetworkServer.NetworkSettings.RX2Frequency)
+		}
+	} else {
+		if ctx.DeviceSession.RX2Frequency != 0 {
+			txInfo.Frequency = uint32(ctx.DeviceSession.RX2Frequency)
+		} else {
+			defaults := config.C.NetworkServer.Band.Band.GetDefaults()
+			txInfo.Frequency = uint32(defaults.RX2Frequency)
+		}			
+	}
+
 	// get data-rate
-	err = helpers.SetDownlinkTXInfoDataRate(&txInfo, int(ctx.DeviceSession.RX2DR), config.C.NetworkServer.Band.Band)
+	if ctx.DeviceSession.RX2DR != 0 {
+		err = helpers.SetDownlinkTXInfoDataRate(&txInfo, int(ctx.DeviceSession.RX2DR), config.C.NetworkServer.Band.Band)
+	} else {
+		if config.C.NetworkServer.NetworkSettings.RX2DR == -1 {
+			defaults := config.C.NetworkServer.Band.Band.GetDefaults()
+			err = helpers.SetDownlinkTXInfoDataRate(&txInfo, int(defaults.RX2DataRate), config.C.NetworkServer.Band.Band)
+		} else {
+			err = helpers.SetDownlinkTXInfoDataRate(&txInfo, int(config.C.NetworkServer.NetworkSettings.RX2DR), config.C.NetworkServer.Band.Band)
+		}
+	}
 	if err != nil {
 		return errors.Wrap(err, "set downlink tx-info data-rate error")
 	}
