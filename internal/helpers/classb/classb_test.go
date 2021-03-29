@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/brocaar/chirpstack-network-server/internal/gps"
-	"github.com/brocaar/lorawan"
+	"github.com/andrewflash/benam-lora-network-server/internal/gps"
+	"github.com/andrewflash/lorawan"
 )
 
 func TestGetBeaconStartForTime(t *testing.T) {

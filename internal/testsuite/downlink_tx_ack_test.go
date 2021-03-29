@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/brocaar/chirpstack-api/go/v3/as"
-	"github.com/brocaar/chirpstack-api/go/v3/gw"
-	"github.com/brocaar/chirpstack-api/go/v3/nc"
-	"github.com/brocaar/chirpstack-network-server/internal/storage"
-	"github.com/brocaar/lorawan"
+	"github.com/andrewflash/benam-lora-api/go/v3/as"
+	"github.com/andrewflash/benam-lora-api/go/v3/gw"
+	"github.com/andrewflash/benam-lora-api/go/v3/nc"
+	"github.com/andrewflash/benam-lora-network-server/internal/storage"
+	"github.com/andrewflash/lorawan"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 )

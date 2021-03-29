@@ -7,11 +7,11 @@ import (
 	"github.com/golang/protobuf/ptypes"
 	"github.com/pkg/errors"
 
-	"github.com/brocaar/chirpstack-api/go/v3/common"
-	"github.com/brocaar/chirpstack-api/go/v3/gw"
-	"github.com/brocaar/chirpstack-network-server/internal/band"
-	"github.com/brocaar/chirpstack-network-server/internal/helpers"
-	"github.com/brocaar/lorawan/backend"
+	"github.com/andrewflash/benam-lora-api/go/v3/common"
+	"github.com/andrewflash/benam-lora-api/go/v3/gw"
+	"github.com/andrewflash/benam-lora-network-server/internal/band"
+	"github.com/andrewflash/benam-lora-network-server/internal/helpers"
+	"github.com/andrewflash/lorawan/backend"
 )
 
 func ULMetaDataToTXInfo(ulMetaData backend.ULMetaData) (*gw.UplinkTXInfo, error) {

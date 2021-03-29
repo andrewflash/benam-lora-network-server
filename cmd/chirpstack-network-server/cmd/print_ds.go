@@ -8,9 +8,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/brocaar/chirpstack-network-server/internal/config"
-	"github.com/brocaar/chirpstack-network-server/internal/storage"
-	"github.com/brocaar/lorawan"
+	"github.com/andrewflash/benam-lora-network-server/internal/config"
+	"github.com/andrewflash/benam-lora-network-server/internal/storage"
+	"github.com/andrewflash/lorawan"
 )
 
 var printDSCmd = &cobra.Command{

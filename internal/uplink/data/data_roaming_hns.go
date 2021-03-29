@@ -5,10 +5,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/brocaar/chirpstack-network-server/internal/models"
-	"github.com/brocaar/chirpstack-network-server/internal/roaming"
-	"github.com/brocaar/lorawan"
-	"github.com/brocaar/lorawan/backend"
+	"github.com/andrewflash/benam-lora-network-server/internal/models"
+	"github.com/andrewflash/benam-lora-network-server/internal/roaming"
+	"github.com/andrewflash/lorawan"
+	"github.com/andrewflash/lorawan/backend"
 )
 
 // HandleRoamingHNS handles an uplink as a hNS.

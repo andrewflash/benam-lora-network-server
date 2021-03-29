@@ -10,16 +10,16 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/brocaar/chirpstack-api/go/v3/common"
-	"github.com/brocaar/chirpstack-api/go/v3/gw"
-	"github.com/brocaar/chirpstack-api/go/v3/nc"
-	"github.com/brocaar/chirpstack-network-server/internal/backend/controller"
-	"github.com/brocaar/chirpstack-network-server/internal/band"
-	"github.com/brocaar/chirpstack-network-server/internal/helpers"
-	"github.com/brocaar/chirpstack-network-server/internal/models"
-	"github.com/brocaar/chirpstack-network-server/internal/storage"
-	"github.com/brocaar/chirpstack-network-server/internal/test"
-	"github.com/brocaar/lorawan"
+	"github.com/andrewflash/benam-lora-api/go/v3/common"
+	"github.com/andrewflash/benam-lora-api/go/v3/gw"
+	"github.com/andrewflash/benam-lora-api/go/v3/nc"
+	"github.com/andrewflash/benam-lora-network-server/internal/backend/controller"
+	"github.com/andrewflash/benam-lora-network-server/internal/band"
+	"github.com/andrewflash/benam-lora-network-server/internal/helpers"
+	"github.com/andrewflash/benam-lora-network-server/internal/models"
+	"github.com/andrewflash/benam-lora-network-server/internal/storage"
+	"github.com/andrewflash/benam-lora-network-server/internal/test"
+	"github.com/andrewflash/lorawan"
 )
 
 type CollectTestSuite struct {

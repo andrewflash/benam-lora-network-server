@@ -3,9 +3,9 @@ package gcppubsub
 import (
 	"testing"
 
-	"github.com/brocaar/chirpstack-api/go/v3/gw"
-	"github.com/brocaar/chirpstack-network-server/internal/backend/gateway/marshaler"
-	"github.com/brocaar/lorawan"
+	"github.com/andrewflash/benam-lora-api/go/v3/gw"
+	"github.com/andrewflash/benam-lora-network-server/internal/backend/gateway/marshaler"
+	"github.com/andrewflash/lorawan"
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"

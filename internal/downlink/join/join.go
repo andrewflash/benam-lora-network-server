@@ -9,16 +9,16 @@ import (
 	"github.com/golang/protobuf/ptypes"
 	"github.com/pkg/errors"
 
-	"github.com/brocaar/chirpstack-api/go/v3/gw"
-	"github.com/brocaar/chirpstack-network-server/internal/backend/gateway"
-	"github.com/brocaar/chirpstack-network-server/internal/band"
-	"github.com/brocaar/chirpstack-network-server/internal/config"
-	dwngateway "github.com/brocaar/chirpstack-network-server/internal/downlink/gateway"
-	"github.com/brocaar/chirpstack-network-server/internal/helpers"
-	"github.com/brocaar/chirpstack-network-server/internal/logging"
-	"github.com/brocaar/chirpstack-network-server/internal/models"
-	"github.com/brocaar/chirpstack-network-server/internal/storage"
-	"github.com/brocaar/lorawan"
+	"github.com/andrewflash/benam-lora-api/go/v3/gw"
+	"github.com/andrewflash/benam-lora-network-server/internal/backend/gateway"
+	"github.com/andrewflash/benam-lora-network-server/internal/band"
+	"github.com/andrewflash/benam-lora-network-server/internal/config"
+	dwngateway "github.com/andrewflash/benam-lora-network-server/internal/downlink/gateway"
+	"github.com/andrewflash/benam-lora-network-server/internal/helpers"
+	"github.com/andrewflash/benam-lora-network-server/internal/logging"
+	"github.com/andrewflash/benam-lora-network-server/internal/models"
+	"github.com/andrewflash/benam-lora-network-server/internal/storage"
+	"github.com/andrewflash/lorawan"
 )
 
 var (

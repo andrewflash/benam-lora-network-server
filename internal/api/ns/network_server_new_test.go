@@ -14,17 +14,17 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	"github.com/brocaar/chirpstack-api/go/v3/common"
-	"github.com/brocaar/chirpstack-api/go/v3/ns"
-	"github.com/brocaar/chirpstack-network-server/internal/band"
-	"github.com/brocaar/chirpstack-network-server/internal/config"
-	"github.com/brocaar/chirpstack-network-server/internal/gateway"
-	"github.com/brocaar/chirpstack-network-server/internal/gps"
-	"github.com/brocaar/chirpstack-network-server/internal/helpers/classb"
-	"github.com/brocaar/chirpstack-network-server/internal/storage"
-	"github.com/brocaar/chirpstack-network-server/internal/test"
-	"github.com/brocaar/lorawan"
-	loraband "github.com/brocaar/lorawan/band"
+	"github.com/andrewflash/benam-lora-api/go/v3/common"
+	"github.com/andrewflash/benam-lora-api/go/v3/ns"
+	"github.com/andrewflash/benam-lora-network-server/internal/band"
+	"github.com/andrewflash/benam-lora-network-server/internal/config"
+	"github.com/andrewflash/benam-lora-network-server/internal/gateway"
+	"github.com/andrewflash/benam-lora-network-server/internal/gps"
+	"github.com/andrewflash/benam-lora-network-server/internal/helpers/classb"
+	"github.com/andrewflash/benam-lora-network-server/internal/storage"
+	"github.com/andrewflash/benam-lora-network-server/internal/test"
+	"github.com/andrewflash/lorawan"
+	loraband "github.com/andrewflash/lorawan/band"
 )
 
 type NetworkServerAPITestSuite struct {

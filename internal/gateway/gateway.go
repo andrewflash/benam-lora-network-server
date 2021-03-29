@@ -5,7 +5,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/brocaar/chirpstack-network-server/internal/config"
+	"github.com/andrewflash/benam-lora-network-server/internal/config"
 )
 
 var (

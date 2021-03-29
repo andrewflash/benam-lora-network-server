@@ -7,8 +7,8 @@ import (
 	"github.com/hashicorp/go-plugin"
 	"github.com/pkg/errors"
 
-	"github.com/brocaar/chirpstack-network-server/adr"
-	"github.com/brocaar/chirpstack-network-server/internal/config"
+	"github.com/andrewflash/benam-lora-network-server/adr"
+	"github.com/andrewflash/benam-lora-network-server/internal/config"
 )
 
 var (

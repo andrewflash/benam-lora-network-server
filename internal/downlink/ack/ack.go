@@ -6,22 +6,22 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/brocaar/lorawan"
+	"github.com/andrewflash/lorawan"
 	"github.com/gofrs/uuid"
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/brocaar/chirpstack-api/go/v3/as"
-	"github.com/brocaar/chirpstack-api/go/v3/gw"
-	"github.com/brocaar/chirpstack-api/go/v3/nc"
-	"github.com/brocaar/chirpstack-api/go/v3/ns"
-	"github.com/brocaar/chirpstack-network-server/internal/backend/controller"
-	"github.com/brocaar/chirpstack-network-server/internal/backend/gateway"
-	"github.com/brocaar/chirpstack-network-server/internal/framelog"
-	"github.com/brocaar/chirpstack-network-server/internal/helpers"
-	"github.com/brocaar/chirpstack-network-server/internal/logging"
-	"github.com/brocaar/chirpstack-network-server/internal/storage"
+	"github.com/andrewflash/benam-lora-api/go/v3/as"
+	"github.com/andrewflash/benam-lora-api/go/v3/gw"
+	"github.com/andrewflash/benam-lora-api/go/v3/nc"
+	"github.com/andrewflash/benam-lora-api/go/v3/ns"
+	"github.com/andrewflash/benam-lora-network-server/internal/backend/controller"
+	"github.com/andrewflash/benam-lora-network-server/internal/backend/gateway"
+	"github.com/andrewflash/benam-lora-network-server/internal/framelog"
+	"github.com/andrewflash/benam-lora-network-server/internal/helpers"
+	"github.com/andrewflash/benam-lora-network-server/internal/logging"
+	"github.com/andrewflash/benam-lora-network-server/internal/storage"
 )
 
 var (

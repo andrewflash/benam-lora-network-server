@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/brocaar/lorawan"
+	"github.com/andrewflash/lorawan"
 )
 
 func (ts *StorageTestSuite) TestDevice() {

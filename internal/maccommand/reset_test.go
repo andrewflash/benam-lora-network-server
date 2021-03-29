@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/brocaar/lorawan/band"
+	"github.com/andrewflash/lorawan/band"
 
-	"github.com/brocaar/chirpstack-network-server/internal/storage"
-	"github.com/brocaar/lorawan"
+	"github.com/andrewflash/benam-lora-network-server/internal/storage"
+	"github.com/andrewflash/lorawan"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

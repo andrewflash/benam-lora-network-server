@@ -10,15 +10,15 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/brocaar/chirpstack-api/go/v3/as"
-	"github.com/brocaar/chirpstack-api/go/v3/common"
-	"github.com/brocaar/chirpstack-api/go/v3/gw"
-	"github.com/brocaar/chirpstack-network-server/internal/backend/applicationserver"
-	"github.com/brocaar/chirpstack-network-server/internal/backend/gateway"
-	"github.com/brocaar/chirpstack-network-server/internal/storage"
-	"github.com/brocaar/chirpstack-network-server/internal/test"
-	"github.com/brocaar/lorawan"
-	"github.com/brocaar/lorawan/band"
+	"github.com/andrewflash/benam-lora-api/go/v3/as"
+	"github.com/andrewflash/benam-lora-api/go/v3/common"
+	"github.com/andrewflash/benam-lora-api/go/v3/gw"
+	"github.com/andrewflash/benam-lora-network-server/internal/backend/applicationserver"
+	"github.com/andrewflash/benam-lora-network-server/internal/backend/gateway"
+	"github.com/andrewflash/benam-lora-network-server/internal/storage"
+	"github.com/andrewflash/benam-lora-network-server/internal/test"
+	"github.com/andrewflash/lorawan"
+	"github.com/andrewflash/lorawan/band"
 )
 
 type GatewayConfigurationTestSuite struct {

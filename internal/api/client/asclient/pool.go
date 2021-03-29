@@ -15,8 +15,8 @@ import (
 	"google.golang.org/grpc/balancer/roundrobin"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/brocaar/chirpstack-api/go/v3/as"
-	"github.com/brocaar/chirpstack-network-server/internal/logging"
+	"github.com/andrewflash/benam-lora-api/go/v3/as"
+	"github.com/andrewflash/benam-lora-network-server/internal/logging"
 )
 
 // Pool defines the application-server client pool.

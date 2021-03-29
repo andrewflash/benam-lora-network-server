@@ -7,7 +7,7 @@
 package storage
 
 import (
-	gw "github.com/brocaar/chirpstack-api/go/v3/gw"
+	gw "github.com/andrewflash/benam-lora-api/go/v3/gw"
 	proto "github.com/golang/protobuf/proto"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

@@ -3,7 +3,7 @@ package adr
 import (
 	"net/rpc"
 
-	"github.com/brocaar/lorawan"
+	"github.com/andrewflash/lorawan"
 	"github.com/hashicorp/go-plugin"
 )
 

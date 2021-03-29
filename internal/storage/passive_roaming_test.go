@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/brocaar/lorawan"
+	"github.com/andrewflash/lorawan"
 	"github.com/gofrs/uuid"
 	"github.com/stretchr/testify/require"
 )

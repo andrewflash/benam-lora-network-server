@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/brocaar/chirpstack-api/go/v3/gw"
+	"github.com/andrewflash/benam-lora-api/go/v3/gw"
 	"github.com/golang/protobuf/proto"
 )
 

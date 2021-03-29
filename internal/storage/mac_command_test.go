@@ -6,8 +6,8 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/brocaar/chirpstack-network-server/internal/test"
-	"github.com/brocaar/lorawan"
+	"github.com/andrewflash/benam-lora-network-server/internal/test"
+	"github.com/andrewflash/lorawan"
 )
 
 func TestMACCommand(t *testing.T) {

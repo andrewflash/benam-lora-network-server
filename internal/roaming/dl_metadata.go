@@ -4,8 +4,8 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"
 
-	"github.com/brocaar/chirpstack-api/go/v3/gw"
-	"github.com/brocaar/lorawan/backend"
+	"github.com/andrewflash/benam-lora-api/go/v3/gw"
+	"github.com/andrewflash/lorawan/backend"
 )
 
 // DLMetaDataToRXInfoSet returns the UplinkRXInfo set from the given DLMetaData.

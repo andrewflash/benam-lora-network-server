@@ -8,8 +8,8 @@ import (
 	"github.com/jmoiron/sqlx"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/brocaar/chirpstack-network-server/internal/logging"
-	"github.com/brocaar/lorawan"
+	"github.com/andrewflash/benam-lora-network-server/internal/logging"
+	"github.com/andrewflash/lorawan"
 )
 
 // DeviceMode defines the mode in which the device operates.

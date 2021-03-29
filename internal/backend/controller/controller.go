@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"github.com/brocaar/chirpstack-api/go/v3/nc"
+	"github.com/andrewflash/benam-lora-api/go/v3/nc"
 )
 
 var client nc.NetworkControllerServiceClient

@@ -8,10 +8,10 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/brocaar/chirpstack-network-server/internal/logging"
-	"github.com/brocaar/chirpstack-network-server/internal/storage"
-	"github.com/brocaar/lorawan"
-	"github.com/brocaar/lorawan/band"
+	"github.com/andrewflash/benam-lora-network-server/internal/logging"
+	"github.com/andrewflash/benam-lora-network-server/internal/storage"
+	"github.com/andrewflash/lorawan"
+	"github.com/andrewflash/lorawan/band"
 )
 
 // RequestNewChannels creates or modifies the non-common bi-directional

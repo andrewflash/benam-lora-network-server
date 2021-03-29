@@ -3,7 +3,7 @@ package monitoring
 import (
 	"net/http"
 
-	"github.com/brocaar/chirpstack-network-server/internal/storage"
+	"github.com/andrewflash/benam-lora-network-server/internal/storage"
 	"github.com/pkg/errors"
 )
 

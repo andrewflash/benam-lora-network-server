@@ -3,9 +3,9 @@ package config
 import (
 	"time"
 
-	"github.com/brocaar/chirpstack-api/go/v3/nc"
-	"github.com/brocaar/lorawan"
-	"github.com/brocaar/lorawan/band"
+	"github.com/andrewflash/benam-lora-api/go/v3/nc"
+	"github.com/andrewflash/lorawan"
+	"github.com/andrewflash/lorawan/band"
 )
 
 // Version defines the ChirpStack Network Server version.

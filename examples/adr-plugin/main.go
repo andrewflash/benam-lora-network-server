@@ -4,7 +4,7 @@ import (
 	"github.com/hashicorp/go-plugin"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/brocaar/chirpstack-network-server/adr"
+	"github.com/andrewflash/benam-lora-network-server/adr"
 )
 
 // Type Handler is the ADR handler.

@@ -12,12 +12,12 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/streadway/amqp"
 
-	"github.com/brocaar/chirpstack-api/go/v3/gw"
-	"github.com/brocaar/chirpstack-network-server/internal/backend/gateway"
-	"github.com/brocaar/chirpstack-network-server/internal/backend/gateway/marshaler"
-	"github.com/brocaar/chirpstack-network-server/internal/config"
-	"github.com/brocaar/chirpstack-network-server/internal/helpers"
-	"github.com/brocaar/lorawan"
+	"github.com/andrewflash/benam-lora-api/go/v3/gw"
+	"github.com/andrewflash/benam-lora-network-server/internal/backend/gateway"
+	"github.com/andrewflash/benam-lora-network-server/internal/backend/gateway/marshaler"
+	"github.com/andrewflash/benam-lora-network-server/internal/config"
+	"github.com/andrewflash/benam-lora-network-server/internal/helpers"
+	"github.com/andrewflash/lorawan"
 )
 
 var gatewayIDRegexp = regexp.MustCompile(`([0-9a-fA-F]{16})`)

@@ -1,9 +1,9 @@
 package models
 
 import (
-	"github.com/brocaar/chirpstack-api/go/v3/gw"
-	"github.com/brocaar/lorawan"
-	"github.com/brocaar/lorawan/backend"
+	"github.com/andrewflash/benam-lora-api/go/v3/gw"
+	"github.com/andrewflash/lorawan"
+	"github.com/andrewflash/lorawan/backend"
 	"github.com/gofrs/uuid"
 )
 

@@ -15,7 +15,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/brocaar/lorawan"
+	"github.com/andrewflash/lorawan"
 )
 
 // GenerateClientCertificate returns a client-certificate for the given gateway ID.

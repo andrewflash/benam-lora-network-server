@@ -14,17 +14,17 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/brocaar/chirpstack-network-server/internal/band"
-	"github.com/brocaar/chirpstack-network-server/internal/config"
-	downdata "github.com/brocaar/chirpstack-network-server/internal/downlink/data"
-	"github.com/brocaar/chirpstack-network-server/internal/logging"
-	"github.com/brocaar/chirpstack-network-server/internal/models"
-	"github.com/brocaar/chirpstack-network-server/internal/roaming"
-	"github.com/brocaar/chirpstack-network-server/internal/storage"
-	updata "github.com/brocaar/chirpstack-network-server/internal/uplink/data"
-	"github.com/brocaar/chirpstack-network-server/internal/uplink/join"
-	"github.com/brocaar/lorawan"
-	"github.com/brocaar/lorawan/backend"
+	"github.com/andrewflash/benam-lora-network-server/internal/band"
+	"github.com/andrewflash/benam-lora-network-server/internal/config"
+	downdata "github.com/andrewflash/benam-lora-network-server/internal/downlink/data"
+	"github.com/andrewflash/benam-lora-network-server/internal/logging"
+	"github.com/andrewflash/benam-lora-network-server/internal/models"
+	"github.com/andrewflash/benam-lora-network-server/internal/roaming"
+	"github.com/andrewflash/benam-lora-network-server/internal/storage"
+	updata "github.com/andrewflash/benam-lora-network-server/internal/uplink/data"
+	"github.com/andrewflash/benam-lora-network-server/internal/uplink/join"
+	"github.com/andrewflash/lorawan"
+	"github.com/andrewflash/lorawan/backend"
 )
 
 // Setup configures the roaming API.

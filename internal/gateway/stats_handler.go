@@ -7,10 +7,10 @@ import (
 	"github.com/gofrs/uuid"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/brocaar/chirpstack-api/go/v3/gw"
-	"github.com/brocaar/chirpstack-network-server/internal/backend/gateway"
-	"github.com/brocaar/chirpstack-network-server/internal/gateway/stats"
-	"github.com/brocaar/chirpstack-network-server/internal/logging"
+	"github.com/andrewflash/benam-lora-api/go/v3/gw"
+	"github.com/andrewflash/benam-lora-network-server/internal/backend/gateway"
+	"github.com/andrewflash/benam-lora-network-server/internal/gateway/stats"
+	"github.com/andrewflash/benam-lora-network-server/internal/logging"
 )
 
 // StatsHandler represents a stat handler for incoming gateway stats.

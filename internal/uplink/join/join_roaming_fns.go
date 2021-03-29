@@ -8,16 +8,16 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/brocaar/chirpstack-network-server/internal/backend/joinserver"
-	"github.com/brocaar/chirpstack-network-server/internal/band"
-	dlroaming "github.com/brocaar/chirpstack-network-server/internal/downlink/roaming"
-	"github.com/brocaar/chirpstack-network-server/internal/helpers"
-	"github.com/brocaar/chirpstack-network-server/internal/logging"
-	"github.com/brocaar/chirpstack-network-server/internal/models"
-	"github.com/brocaar/chirpstack-network-server/internal/roaming"
-	"github.com/brocaar/chirpstack-network-server/internal/storage"
-	"github.com/brocaar/lorawan"
-	"github.com/brocaar/lorawan/backend"
+	"github.com/andrewflash/benam-lora-network-server/internal/backend/joinserver"
+	"github.com/andrewflash/benam-lora-network-server/internal/band"
+	dlroaming "github.com/andrewflash/benam-lora-network-server/internal/downlink/roaming"
+	"github.com/andrewflash/benam-lora-network-server/internal/helpers"
+	"github.com/andrewflash/benam-lora-network-server/internal/logging"
+	"github.com/andrewflash/benam-lora-network-server/internal/models"
+	"github.com/andrewflash/benam-lora-network-server/internal/roaming"
+	"github.com/andrewflash/benam-lora-network-server/internal/storage"
+	"github.com/andrewflash/lorawan"
+	"github.com/andrewflash/lorawan/backend"
 )
 
 type startPRFNSContext struct {

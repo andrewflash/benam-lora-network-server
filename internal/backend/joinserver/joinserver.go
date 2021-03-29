@@ -10,9 +10,9 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/brocaar/chirpstack-network-server/internal/config"
-	"github.com/brocaar/lorawan"
-	"github.com/brocaar/lorawan/backend"
+	"github.com/andrewflash/benam-lora-network-server/internal/config"
+	"github.com/andrewflash/lorawan"
+	"github.com/andrewflash/lorawan/backend"
 )
 
 type serverItem struct {

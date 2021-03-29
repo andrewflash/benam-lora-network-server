@@ -1,6 +1,6 @@
 package adr
 
-import "github.com/brocaar/chirpstack-network-server/adr"
+import "github.com/andrewflash/benam-lora-network-server/adr"
 
 // DefaultHandler implements the default ADR handler.
 type DefaultHandler struct{}

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/brocaar/chirpstack-network-server/adr"
+	"github.com/andrewflash/benam-lora-network-server/adr"
 	"github.com/stretchr/testify/require"
 )
 

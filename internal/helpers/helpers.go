@@ -4,15 +4,15 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/brocaar/chirpstack-network-server/internal/backend/applicationserver"
-	"github.com/brocaar/chirpstack-network-server/internal/storage"
-	"github.com/brocaar/lorawan"
+	"github.com/andrewflash/benam-lora-network-server/internal/backend/applicationserver"
+	"github.com/andrewflash/benam-lora-network-server/internal/storage"
+	"github.com/andrewflash/lorawan"
 	"github.com/gofrs/uuid"
 
-	"github.com/brocaar/chirpstack-api/go/v3/as"
-	"github.com/brocaar/chirpstack-api/go/v3/common"
-	"github.com/brocaar/chirpstack-api/go/v3/gw"
-	"github.com/brocaar/lorawan/band"
+	"github.com/andrewflash/benam-lora-api/go/v3/as"
+	"github.com/andrewflash/benam-lora-api/go/v3/common"
+	"github.com/andrewflash/benam-lora-api/go/v3/gw"
+	"github.com/andrewflash/lorawan/band"
 	"github.com/pkg/errors"
 )
 

@@ -7,9 +7,9 @@ import (
 	. "github.com/smartystreets/goconvey/convey"
 	"github.com/stretchr/testify/require"
 
-	"github.com/brocaar/chirpstack-network-server/internal/test"
-	"github.com/brocaar/lorawan"
-	loraband "github.com/brocaar/lorawan/band"
+	"github.com/andrewflash/benam-lora-network-server/internal/test"
+	"github.com/andrewflash/lorawan"
+	loraband "github.com/andrewflash/lorawan/band"
 )
 
 func TestGetRandomDevAddr(t *testing.T) {

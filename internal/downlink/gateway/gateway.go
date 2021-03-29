@@ -7,10 +7,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/brocaar/chirpstack-network-server/internal/band"
-	"github.com/brocaar/chirpstack-network-server/internal/config"
-	"github.com/brocaar/chirpstack-network-server/internal/storage"
-	loraband "github.com/brocaar/lorawan/band"
+	"github.com/andrewflash/benam-lora-network-server/internal/band"
+	"github.com/andrewflash/benam-lora-network-server/internal/config"
+	"github.com/andrewflash/benam-lora-network-server/internal/storage"
+	loraband "github.com/andrewflash/lorawan/band"
 )
 
 // BySignal implements sort.Interface for []gw.UplinkRXInfo based on signal strength.

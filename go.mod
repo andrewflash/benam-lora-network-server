@@ -1,46 +1,41 @@
-module github.com/brocaar/chirpstack-network-server
+module github.com/andrewflash/benam-lora-network-server
 
 go 1.16
 
 require (
-	cloud.google.com/go/pubsub v1.3.1
+	cloud.google.com/go/pubsub v1.9.0
 	github.com/Azure/azure-amqp-common-go v1.1.4
-	github.com/Azure/azure-service-bus-go v0.9.1
+	github.com/Azure/azure-service-bus-go v0.10.11
 	github.com/NickBall/go-aes-key-wrap v0.0.0-20170929221519-1c3aa3e4dfc5
-	github.com/brocaar/chirpstack-api/go/v3 v3.9.5
-	github.com/brocaar/lorawan v0.0.0-20201030140234-f23da2d4a303
-	github.com/eclipse/paho.mqtt.golang v1.2.0
+	github.com/andrewflash/benam-lora-api/go/v3 v3.9.6-0.20210329022404-a000efba5d69
+	github.com/andrewflash/lorawan v1.0.2
+	github.com/eclipse/paho.mqtt.golang v1.3.2
 	github.com/go-redis/redis/v7 v7.4.0
-	github.com/gofrs/uuid v3.2.0+incompatible
-	github.com/gogo/protobuf v1.3.2 // indirect
+	github.com/gofrs/uuid v4.0.0+incompatible
 	github.com/golang-migrate/migrate/v4 v4.14.1
-	github.com/golang/protobuf v1.4.3
-	github.com/gopherjs/gopherjs v0.0.0-20190430165422-3e4dfb77656c // indirect
-	github.com/goreleaser/goreleaser v0.106.0
-	github.com/goreleaser/nfpm v0.11.0
-	github.com/grpc-ecosystem/go-grpc-middleware v1.0.0
+	github.com/golang/protobuf v1.5.0
+	github.com/goreleaser/goreleaser v0.161.1
+	github.com/goreleaser/nfpm v1.10.3
+	github.com/grpc-ecosystem/go-grpc-middleware v1.2.2
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/hashicorp/go-plugin v1.4.0
-	github.com/jacobsa/crypto v0.0.0-20190317225127-9f44e2d11115 // indirect
-	github.com/jmoiron/sqlx v1.2.0
-	github.com/lib/pq v1.8.0
-	github.com/mitchellh/mapstructure v1.1.2
+	github.com/jmoiron/sqlx v1.3.1
+	github.com/lib/pq v1.10.0
+	github.com/mitchellh/mapstructure v1.4.1
 	github.com/pkg/errors v0.9.1
-	github.com/prometheus/client_golang v1.1.0
-	github.com/sirupsen/logrus v1.7.0
-	github.com/smartystreets/assertions v1.0.0 // indirect
-	github.com/smartystreets/goconvey v0.0.0-20190330032615-68dc04aab96a
-	github.com/spf13/cobra v0.0.5
-	github.com/spf13/viper v1.4.0
-	github.com/streadway/amqp v0.0.0-20190827072141-edfb9018d271
-	github.com/stretchr/testify v1.5.1
-	golang.org/x/lint v0.0.0-20200302205851-738671d3881b
-	golang.org/x/net v0.0.0-20201029221708-28c70e62bb1d
-	golang.org/x/tools v0.0.0-20210106214847-113979e3529a
-	gonum.org/v1/gonum v0.0.0-20190115205657-1b07048b32c6
-	gonum.org/v1/netlib v0.0.0-20190219113230-9992c5f5eae4 // indirect
-	google.golang.org/api v0.30.0
-	google.golang.org/grpc v1.33.1
-	google.golang.org/protobuf v1.25.0
-	pack.ag/amqp v0.12.1
+	github.com/prometheus/client_golang v1.10.0
+	github.com/sirupsen/logrus v1.8.1
+	github.com/smartystreets/goconvey v1.6.4
+	github.com/spf13/cobra v1.1.3
+	github.com/spf13/viper v1.7.1
+	github.com/streadway/amqp v1.0.0
+	github.com/stretchr/testify v1.7.0
+	golang.org/x/lint v0.0.0-20201208152925-83fdc39ff7b5
+	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110
+	golang.org/x/tools v0.1.0
+	gonum.org/v1/gonum v0.9.0
+	google.golang.org/api v0.43.0
+	google.golang.org/grpc v1.36.0
+	google.golang.org/protobuf v1.26.0
+	pack.ag/amqp v0.12.5
 )
